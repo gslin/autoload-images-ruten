@@ -11,9 +11,4 @@
     if (unsafeWindow.second_stage_image_loader) {
         unsafeWindow.second_stage_image_loader();
     }
-
-    var a = document.getElementById('arrow_detail');
-    if (a) {
-        a.style.display = 'none';
-    }
 })();
